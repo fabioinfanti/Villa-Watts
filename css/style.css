@@ -1,0 +1,815 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-top {
+    display: flex;
+    align-items: top;
+    justify-content: center;
+}
+
+img {
+    width: 100%;
+}
+
+
+/* NAV */
+
+.nav {
+    position: absolute;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 30px 40px;
+    z-index: 2;
+}
+
+.nav__logos img {
+    width: 35%;
+    margin-right: 40px;
+}
+
+.nav__endereco {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.endereco__middle {
+    padding: 0 16px;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    margin: 0 16px;
+}
+
+.cidade {
+    text-align: center;
+    color: white;
+    margin: 0;
+    font-weight: 300;
+}
+
+.telefone span {
+    font-size: 14px;
+}
+
+.telefone {
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+}
+
+
+/* HEADER */
+
+.header {
+    background-image: url(../image/Background__Watts.jpg);
+    background-size: cover;
+    height: 937px;
+    background-position: center;
+    position: relative;
+}
+
+.text__box {
+    position: absolute;
+    bottom: 5%;
+    width: 100%;
+}
+
+.header__text {
+    text-transform: uppercase;
+    color: white;
+    font-size: 72px;
+    text-align: center;
+    font-weight: 400;
+}
+
+
+/* FORM */
+
+.form {
+    padding: 64px 40px;
+}
+
+.info__box {
+    background-color: #00ff00;
+    padding: 56px 48px 12px;
+    border-radius: 24px;
+    color: #404040;
+}
+
+.info__title {
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+}
+
+.info__modelos {
+    display: flex;
+    align-items: stretch;
+}
+
+.info__divisor {
+    border-left: 1px solid #404040;
+    border-right: 1px solid #404040;
+    margin: 0 32px;
+}
+
+.modelos__left {
+    width: 49.5%;
+}
+
+.modelos__right {
+    width: 49.5%;
+}
+
+.modelos__title {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1;
+    margin: 0;
+}
+
+.modelos__auto {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.price {
+    display: flex;
+    align-items: top;
+}
+
+.price span {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.modelos__price {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1;
+}
+
+.disclaimer {
+    margin-top: 40px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.form__box {
+    background-color: #bbbbbb;
+    padding: 32px;
+    border-radius: 24px;
+    color: #000;
+}
+
+.form__title {
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+/* BENEFICIOS */
+
+.beneficios {
+    background-color: #404040;
+    padding: 64px 40px;
+}
+
+.green-line {
+    background-color: #00ff00;
+    width: 90px;
+    height: 10px;
+    margin-bottom: 24px;
+}
+
+.beneficios__title {
+    font-size: 48px;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.beneficios__subtitle {
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    width: 60%;
+}
+
+.itens {
+    display: flex;
+    align-items: stretch;
+}
+
+.itens__left {
+    width: 50%;
+}
+
+.itens__right {
+    width: 50%;
+}
+
+.item__box {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.item__icon {
+    width: 80px;
+    height: 80px;
+    margin-right: 24px;
+}
+
+.item__title {
+    margin: 0;
+    font-weight: 700;
+    font-size: 28px;
+    color: #8e8e8e;
+    margin-right: 24px;
+    line-height: 1;
+}
+
+.item__desc {
+    font-weight: 700;
+    font-size: 18px;
+    color: #8e8e8e;
+    margin: 8px 0 0;
+    width: 70%;
+    line-height: 1;
+}
+
+.green-btn {
+    background-color: #00ff00;
+    border-radius: 12px;
+    padding: 8px 32px;
+    font-size: 24px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    transition: .4s ease-in-out;
+    margin: 40px auto 0;
+    text-align: center;
+}
+
+.green-btn:hover {
+    color: white;
+    text-decoration: none;
+    transform: scale(1.1);
+}
+
+
+/* TECNOLOGIA */
+
+.tecnologia {
+    background-color: #1d1d1d;
+    padding: 64px 40px;
+}
+
+.tecnologia__title {
+    font-size: 48px;
+    color: #00ff00;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.tecnologia__subtitle {
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    width: 70%;
+    margin-bottom: 48px;
+}
+
+.tecnologia__image {
+    display: block;
+    margin: 0 auto 24px;
+}
+
+.tecnologia__disclaimer {
+    font-size: 32px;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.tecnologia__subtitle2 {
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    width: 75%;
+    margin: auto;
+}
+
+
+/* DETALHES */
+
+.detalhes {
+    padding: 64px 40px;
+}
+
+.detalhes-box {
+    margin: 0 12px;
+    width: 25%;
+}
+
+.detalhes__title {
+    font-size: 28px;
+    color: #009b00;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 8px;
+}
+
+.detalhes__subtitle {
+    font-size: 16px;
+    color: #727272;
+    font-weight: 700;
+    line-height: 1;
+    margin: 0;
+    width: 87%;
+}
+
+
+/* ESPECIFICAÇÕES */
+
+.especificacoes {
+    padding: 64px 40px;
+    background-color: #404040;
+}
+
+.espec__title {
+    font-size: 40px;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.espec__text {
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1;
+}
+
+.box-colors {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.espec__color {
+    width: 32px;
+    height: 32px;
+    border: 2px solid #838789;
+    border-radius: 20px;
+    margin-right: 16px;
+}
+
+.preto {
+    background-color: #2e2c2c;
+}
+
+.red {
+    background-color: #ab0505;
+}
+
+.blue {
+    background-color: #1414a1;
+}
+
+.white {
+    background-color: #ffffff;
+}
+
+
+/* FOOTER */
+
+footer {
+    background-color: #1d1d1d;
+    padding: 64px 40px;
+}
+
+.footer__endereco {
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    line-height: 1;
+    margin: 0 auto;
+    display: block;
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+    .telefone {
+        font-size: 22px;
+    }
+    .header__text {
+        font-size: 64px;
+    }
+    .info__title {
+        font-size: 32px;
+    }
+    .modelos__title {
+        font-size: 32px;
+    }
+    .modelos__auto {
+        font-size: 18px;
+    }
+    .modelos__price {
+        font-size: 40px;
+    }
+    .price span {
+        font-size: 20px;
+    }
+    .form__title {
+        font-size: 24px;
+    }
+    .beneficios__title {
+        font-size: 40px;
+    }
+    .beneficios__subtitle {
+        width: 80%;
+    }
+    .item__title {
+        font-size: 24px;
+    }
+    .item__icon {
+        width: 50px !important;
+        height: 70px !important;
+    }
+    .item__desc {
+        width: 90%;
+    }
+    .tecnologia__subtitle {
+        font-size: 18px;
+        width: 90%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .nav {
+        padding: 24px;
+    }
+    .nav__logos img {
+        width: 40%;
+        margin-right: 10px;
+    }
+    .telefone {
+        font-size: 18px;
+    }
+    .header {
+        height: 650px;
+    }
+    .header__text {
+        font-size: 48px;
+    }
+    .info__box {
+        padding: 32px 32px 8px;
+    }
+    .info__title {
+        font-size: 24px;
+    }
+    .modelos__title {
+        font-size: 24px;
+    }
+    .modelos__auto {
+        font-size: 13px;
+    }
+    .modelos__price {
+        font-size: 36px;
+    }
+    .price span {
+        font-size: 12px;
+    }
+    .info__divisor {
+        margin: 0 16px;
+    }
+    .disclaimer {
+        margin-top: 32px;
+        font-size: 12px;
+    }
+    .form__title {
+        font-size: 18px;
+    }
+    .beneficios__title {
+        font-size: 32px;
+    }
+    .beneficios__subtitle {
+        font-size: 16px;
+    }
+    .item__title {
+        font-size: 20px;
+    }
+    .item__desc {
+        font-size: 12px;
+    }
+    .item__icon {
+        margin-right: 12px;
+    }
+    .tecnologia__title {
+        font-size: 32px;
+        margin-bottom: 24px;
+    }
+    .tecnologia__subtitle {
+        font-size: 16px;
+        width: 100%;
+    }
+    .tecnologia__disclaimer {
+        font-size: 24px;
+    }
+    .tecnologia__subtitle2 {
+        font-size: 16px;
+        width: 90%;
+    }
+    .detalhes__title {
+        font-size: 20px;
+    }
+    .detalhes__subtitle {
+        font-size: 12px;
+    }
+    .espec__title {
+        font-size: 32px;
+    }
+    .espec__text {
+        font-size: 15px;
+    }
+    .footer__endereco {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 767px) {
+    .nav_logos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav__endereco {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 12px;
+    }
+    .header {
+        height: 845px;
+    }
+    .text__box {
+        bottom: 8%;
+    }
+    .header__text {
+        font-size: 48px;
+    }
+    .info__box {
+        padding: 40px 32px 12px;
+        margin: 0 auto 32px;
+    }
+    .modelos__title {
+        font-size: 32px;
+    }
+    .modelos__auto {
+        font-size: 16px;
+    }
+    .price span {
+        font-size: 16px;
+    }
+    .modelos__price {
+        font-size: 40px;
+    }
+    .form__title {
+        font-size: 24px;
+    }
+    .flex-mobile {
+        display: flex;
+        align-items: top;
+    }
+    .beneficios__title {
+        font-size: 36;
+        width: 100%;
+    }
+    .beneficios__subtitle {
+        font-size: 18px;
+        width: 100%;
+    }
+    .item__icon {
+        width: 60px;
+        height: auto;
+    }
+    .item__title {
+        font-size: 24px;
+        margin: 0;
+    }
+    .item__desc {
+        font-size: 16px;
+        width: 90%;
+    }
+    .tecnologia__title {
+        font-size: 36px;
+        width: 100%;
+    }
+    .tecnologia__subtitle {
+        font-size: 18px;
+        width: 100%;
+    }
+    .tecnologia__disclaimer {
+        font-size: 24px;
+    }
+    .tecnologia__subtitle2 {
+        font-size: 18px;
+        width: 90%;
+    }
+    .flex-top {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .detalhes-box {
+        margin: 0 12px 24px;
+        width: 28%;
+        display: block;
+    }
+    .detalhes__title {
+        font-size: 24px;
+    }
+    .detalhes__subtitle {
+        font-size: 12px;
+        width: 100%;
+    }
+    .espec__title {
+        font-size: 32px;
+    }
+    .espec__text {
+        font-size: 18px;
+    }
+    footer {
+        padding: 48px 40px;
+    }
+    .footer__endereco {
+        font-size: 14px;
+        margin: 6px auto 6px;
+    }
+}
+
+@media (max-width: 575px) {
+    .nav {
+        padding: 30px 24px;
+    }
+    .nav__logos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .header {
+        height: 725px;
+    }
+    .header__text {
+        font-size: 32px;
+    }
+    .form {
+        padding: 48px 24px;
+    }
+    .info__title {
+        font-size: 28px;
+    }
+    .modelos__title {
+        font-size: 28px;
+    }
+    .modelos__auto {
+        font-size: 14px;
+    }
+    .disclaimer {
+        font-size: 14px;
+    }
+    .beneficios {
+        padding: 48px 24px;
+    }
+    .tecnologia {
+        padding: 48px 24px;
+    }
+    .tecnologia__title {
+        font-size: 32px;
+    }
+    .tecnologia__subtitle {
+        font-size: 16px;
+    }
+    .tecnologia__subtitle2 {
+        font-size: 16px;
+    }
+    .detalhes {
+        padding: 48px 24px;
+    }
+    .detalhes__title {
+        font-size: 20px;
+    }
+    .br-desk {
+        display: none;
+    }
+    .espec__title {
+        font-size: 28px;
+    }
+    .espec__text {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 425px) {
+    .cidade {
+        font-size: 12px;
+    }
+    .telefone {
+        font-size: 16px;
+    }
+    .header {
+        height: 675px;
+    }
+    .header__text {
+        font-size: 28px;
+    }
+    .info__title {
+        font-size: 22px;
+    }
+    .modelos__title {
+        font-size: 20px;
+    }
+    .modelos__auto {
+        font-size: 12px;
+    }
+    .info__divisor {
+        margin: 0 12px;
+    }
+    .price span {
+        font-size: 14px;
+    }
+    .modelos__price {
+        font-size: 26px;
+    }
+    .form__title {
+        font-size: 22px;
+    }
+    .form__title {
+        font-size: 22px;
+    }
+    .beneficios__title {
+        font-size: 28px;
+    }
+    .beneficios__subtitle {
+        font-size: 16px;
+    }
+    .item__icon {
+        width: 40px;
+        margin-right: 12px;
+    }
+    .item__title {
+        font-size: 18px;
+    }
+    .item__desc {
+        font-size: 13px;
+        width: 100%;
+    }
+    .tecnologia__title {
+        font-size: 25px;
+    }
+    .tecnologia__subtitle {
+        font-size: 14px;
+    }
+    .tecnologia__subtitle2 {
+        font-size: 14px;
+    }
+    .flex-top {
+        display: none;
+    }
+    .flex-top-mobile {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    .detalhes-box {
+        width: 33%;
+    }
+    .detalhes__title {
+        font-size: 17px;
+    }
+    .detalhes__subtitle {
+        font-size: 10px;
+        width: 100%;
+    }
+    .espec__title {
+        font-size: 28px;
+    }
+    .espec__text {
+        font-size: 16px;
+    }
+}
