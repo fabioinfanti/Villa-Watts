@@ -342,6 +342,9 @@ img {
     margin: 0;
     width: 87%;
 }
+.flex-top-mobile {
+    display: none;
+}
 
 
 /* ESPECIFICAÇÕES */
